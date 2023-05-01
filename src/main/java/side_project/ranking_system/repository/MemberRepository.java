@@ -6,6 +6,5 @@ import java.util.List;
 
 public interface MemberRepository {
     void save(Member member);
-    Member findByRank(int rank);
     List<Member> getMemberList();
 }

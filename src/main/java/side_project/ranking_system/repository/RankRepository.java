@@ -15,11 +15,6 @@ public class RankRepository implements MemberRepository{
     }
 
     @Override
-    public Member findByRank(int rank) {
-        return memberList.get(rank - 1);
-    }
-
-    @Override
     public List<Member> getMemberList() {
         return memberList;
     }

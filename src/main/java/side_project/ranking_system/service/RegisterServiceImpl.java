@@ -18,9 +18,4 @@ public class RegisterServiceImpl implements RegisterService{
     public void register(Member member) {
         memberRepository.save(member);
     }
-
-    @Override
-    public Member findByRank(int rank) {
-        return memberRepository.findByRank(rank);
-    }
 }

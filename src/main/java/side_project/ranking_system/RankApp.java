@@ -48,6 +48,7 @@ public class RankApp {
         rankService.addRank();
         rankService.showRank();
 
-        System.out.println(registerService.findByRank(3).getName());
+        System.out.println(rankService.findByRank(3).getName());
+        System.out.println(rankService.findByName("최서웅"));
     }
 }
