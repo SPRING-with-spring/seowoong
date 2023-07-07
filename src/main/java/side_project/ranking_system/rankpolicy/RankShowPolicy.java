@@ -3,7 +3,6 @@ package side_project.ranking_system.rankpolicy;
 import org.springframework.beans.factory.annotation.Autowired;
 import side_project.ranking_system.domain.Member;
 import side_project.ranking_system.repository.MemberRepository;
-import side_project.ranking_system.repository.RankRepository;
 
 import java.util.Collections;
 import java.util.Comparator;

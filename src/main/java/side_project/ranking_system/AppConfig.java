@@ -5,7 +5,6 @@ import org.springframework.context.annotation.Configuration;
 import side_project.ranking_system.rankpolicy.RankPolicy;
 import side_project.ranking_system.rankpolicy.RankShowPolicy;
 import side_project.ranking_system.repository.MemberRepository;
-import side_project.ranking_system.repository.RankRepository;
 import side_project.ranking_system.service.RankService;
 import side_project.ranking_system.service.RankServiceImpl;
 import side_project.ranking_system.service.RegisterService;
